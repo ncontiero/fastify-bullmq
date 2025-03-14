@@ -2,6 +2,8 @@
 
 [![license mit](https://img.shields.io/badge/licence-MIT-6C47FF)](./LICENSE)
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0s3-xR?referralCode=7y-eBI)
+
 ## ✨ Features
 
 - A queueing system with [BullMQ](https://docs.bullmq.io/) and Redis;
