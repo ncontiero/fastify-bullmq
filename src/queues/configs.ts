@@ -11,6 +11,7 @@ export const connection: ConnectionOptions = {
   port: env.REDIS_PORT,
   username: env.REDIS_USER,
   password: env.REDIS_PASSWORD,
+  family: 0, // 4 (IPv4) or 6 (IPv6)
 };
 
 export const createJobOptions = (
