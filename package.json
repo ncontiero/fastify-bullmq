@@ -13,6 +13,8 @@
     "pm2:down": "pm2 delete all",
     "build": "rslib build",
     "start": "pm2-runtime start ecosystem.config.cjs --env production",
+    "start:server": "pnpm start --only api",
+    "start:worker": "pnpm start --only worker",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",

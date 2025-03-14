@@ -4,6 +4,7 @@ module.exports = {
       name: "worker",
       cwd: "./dist",
       script: "./worker.js",
+      instances: process.env.WORKER_INSTANCES || 1,
       env_production: {
         NODE_ENV: "production",
       },
@@ -15,6 +16,7 @@ module.exports = {
       name: "api",
       cwd: "./dist",
       script: "./server.js",
+      instances: process.env.SERVER_INSTANCES || 1,
       env_production: {
         NODE_ENV: "production",
       },
