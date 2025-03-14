@@ -1,0 +1,34 @@
+{
+  "name": "fastify-bullmq",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.6.3",
+  "description": "",
+  "author": "Nicolas Contiero (https://github.com/dkshs)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "check": "pnpm lint && pnpm typecheck",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+    "pre-commit": "lint-staged"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@dkshs/eslint-config": "^4.4.0",
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "lint-staged": {
+    "*": "pnpm lint:fix"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // Compilation and Target Settings
+    "incremental": false,
+    "target": "ES2022",
+
+    // Library Definitions
+    "lib": ["ES2022"],
+
+    // Module Resolution and Detection
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    // Path Aliases
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // JavaScript and Strictness
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Output and Interoperability
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*.ts"],
+}
