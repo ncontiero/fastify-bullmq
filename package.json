@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.6.3",
-  "description": "",
+  "description": "A template repository for deploying a BullMQ and Redis queueing system.",
   "author": "Nicolas Contiero (https://github.com/dkshs)",
   "license": "MIT",
   "scripts": {
