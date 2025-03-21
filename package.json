@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "concurrently --kill-others --names \"build,server\" -c \"blue,black\" \"rslib build --watch\" \"pnpm dev:server\"",
     "dev:server": "pm2 start ecosystem.config.cjs --watch --env development --attach",
+    "postdev": "pnpm pm2:down",
     "pm2:down": "pm2 delete all",
     "build": "rslib build",
     "start": "pm2-runtime start ecosystem.config.cjs --env production",
