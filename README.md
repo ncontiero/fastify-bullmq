@@ -68,7 +68,6 @@ pnpm dev
 
 ## References and inspirations
 
-- [DkStore](https://github.com/dkshs/dkstore)
 - <https://github.com/railwayapp-templates/fastify-bullmq>
 
 ## License
