@@ -25,11 +25,11 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
-    "@bull-board/api": "^6.9.2",
-    "@bull-board/fastify": "^6.9.2",
-    "@bull-board/ui": "^6.9.2",
-    "@t3-oss/env-core": "^0.13.0",
-    "bullmq": "^5.51.1",
+    "@bull-board/api": "^6.9.5",
+    "@bull-board/fastify": "^6.9.5",
+    "@bull-board/ui": "^6.9.5",
+    "@t3-oss/env-core": "^0.13.4",
+    "bullmq": "^5.52.1",
     "fastify": "^5.3.2",
     "pm2": "^6.0.5",
     "zod": "^3.24.3"
@@ -38,10 +38,10 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@ncontiero/eslint-config": "^5.1.1",
-    "@rslib/core": "^0.6.7",
+    "@rslib/core": "^0.6.8",
     "@types/node": "^22.15.3",
     "concurrently": "^9.1.2",
-    "eslint": "^9.25.1",
+    "eslint": "^9.26.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.1",
     "typescript": "^5.8.3"
