@@ -1,5 +1,5 @@
 import { createBullBoard } from "@bull-board/api";
-import { BullMQAdapter } from "@bull-board/api/bullMQAdapter.js";
+import { BullMQAdapter } from "@bull-board/api/bullMQAdapter";
 import { FastifyAdapter } from "@bull-board/fastify";
 import Fastify from "fastify";
 import { env } from "./env";
@@ -18,7 +18,6 @@ createBullBoard({
 serverAdapter.setBasePath("/ui");
 fastify.register(serverAdapter.registerPlugin(), {
   prefix: "/ui",
-  basePath: "/ui",
 });
 
 const start = async () => {
