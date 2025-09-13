@@ -32,7 +32,7 @@
     "bullmq": "^5.58.5",
     "fastify": "^5.6.0",
     "pm2": "^6.0.10",
-    "zod": "^3.25.28"
+    "zod": "^4.1.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
