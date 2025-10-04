@@ -12,7 +12,7 @@
 
 ## Explanations
 
-This application uses **BullMQ**, a Redis-based queueing system, and **Bull-Board**, a dashboard to monitor and manage these queues, served by a **Fastify** server. Both services are built using [Rslib](https://lib.rsbuild.dev/) and managed by **PM2**.
+This application uses **BullMQ**, a Redis-based queueing system, and **Bull-Board**, a dashboard to monitor and manage these queues, served by a **Fastify** server. Both services are built using [Rslib](https://rslib.rs/) and managed by **PM2**.
 
 There are three distinct ways to start the services:
 
