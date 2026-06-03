@@ -32,7 +32,7 @@ PM2 also supports [Bun](https://bun.sh/). If desired, you can replace the projec
 
 You need to have the following main dependency installed:
 
-- Node.js LTS v18 (or any higher version)
+- Node.js LTS v22 (or any higher version)
 
 Do you use `nvm`? Then you can run `nvm install` in the project folder to install and use the most appropriate version of Node.js.
 

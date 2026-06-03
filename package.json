@@ -25,28 +25,28 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
-    "@bull-board/api": "^6.15.0",
-    "@bull-board/fastify": "^6.15.0",
-    "@t3-oss/env-core": "^0.13.8",
-    "bullmq": "^5.65.1",
-    "fastify": "^5.6.2",
-    "pm2": "^6.0.14",
-    "zod": "^4.1.13"
+    "@bull-board/api": "7.1.5",
+    "@bull-board/fastify": "7.1.5",
+    "@t3-oss/env-core": "0.13.11",
+    "bullmq": "5.77.6",
+    "fastify": "5.8.5",
+    "pm2": "7.0.1",
+    "zod": "4.4.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.2.0",
-    "@commitlint/config-conventional": "^20.2.0",
-    "@ncontiero/eslint-config": "^6.5.1",
-    "@rslib/core": "^0.18.3",
-    "@types/node": "^24.10.1",
-    "concurrently": "^9.2.1",
-    "eslint": "^9.39.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
-    "typescript": "^5.9.3"
+    "@commitlint/cli": "21.0.2",
+    "@commitlint/config-conventional": "21.0.2",
+    "@ncontiero/eslint-config": "8.2.1",
+    "@rslib/core": "0.22.0",
+    "@types/node": "25.9.1",
+    "concurrently": "10.0.0",
+    "eslint": "10.4.1",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.7",
+    "typescript": "6.0.3"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22.3"
   },
   "lint-staged": {
     "*": "pnpm lint:fix"

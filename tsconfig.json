@@ -8,7 +8,6 @@
     "lib": ["ES2022"],
 
     // Module Resolution and Detection
-    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "bundler",
 
