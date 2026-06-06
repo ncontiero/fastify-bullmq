@@ -39,7 +39,7 @@
     "@ncontiero/eslint-config": "8.2.1",
     "@rslib/core": "0.22.0",
     "@types/node": "25.9.1",
-    "concurrently": "10.0.0",
+    "concurrently": "10.0.3",
     "eslint": "10.4.1",
     "husky": "9.1.7",
     "lint-staged": "17.0.7",
