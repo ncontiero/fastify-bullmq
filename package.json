@@ -25,8 +25,8 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
-    "@bull-board/api": "7.2.1",
-    "@bull-board/fastify": "7.2.1",
+    "@bull-board/api": "8.0.1",
+    "@bull-board/fastify": "8.0.1",
     "@t3-oss/env-core": "0.13.11",
     "bullmq": "5.78.0",
     "fastify": "5.8.5",
