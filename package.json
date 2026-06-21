@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@11.5.3",
+  "packageManager": "pnpm@11.8.0",
   "description": "A template repository for deploying a BullMQ and Redis queueing system.",
   "author": "Nicolas Contiero <https://github.com/ncontiero>",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "@bull-board/api": "8.0.1",
     "@bull-board/fastify": "8.0.1",
     "@t3-oss/env-core": "0.13.11",
-    "bullmq": "5.78.0",
+    "bullmq": "5.79.0",
     "fastify": "5.8.5",
     "pm2": "7.0.1",
     "zod": "4.4.3"
@@ -36,11 +36,11 @@
   "devDependencies": {
     "@commitlint/cli": "21.0.2",
     "@commitlint/config-conventional": "21.0.2",
-    "@ncontiero/eslint-config": "8.2.2",
-    "@rslib/core": "0.22.0",
+    "@ncontiero/eslint-config": "8.3.2",
+    "@rslib/core": "0.23.0",
     "@types/node": "25.9.3",
     "concurrently": "10.0.3",
-    "eslint": "10.4.1",
+    "eslint": "10.5.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.7",
     "typescript": "6.0.3"
