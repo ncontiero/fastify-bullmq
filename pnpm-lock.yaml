@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@bull-board/api':
-        specifier: 7.2.1
-        version: 7.2.1(@bull-board/ui@7.2.1)
+        specifier: 8.0.1
+        version: 8.0.1(@bull-board/ui@8.0.1)
       '@bull-board/fastify':
-        specifier: 7.2.1
-        version: 7.2.1
+        specifier: 8.0.1
+        version: 8.0.1
       '@t3-oss/env-core':
         specifier: 0.13.11
         version: 0.13.11(typescript@6.0.3)(valibot@1.4.1(typescript@6.0.3))(zod@4.4.3)
@@ -133,16 +133,16 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@bull-board/api@7.2.1':
-    resolution: {integrity: sha512-ldRG4POJLHf6oDrbDA7AsbTKliBmV4eySlwdUAumiRDtfvtbRSdXGE4Md2uPDova1r/ck7ExEe1+pHEQAZElqw==}
+  '@bull-board/api@8.0.1':
+    resolution: {integrity: sha512-7FELJHRQPtjH9+r/DUArr4pDVU8r1yeDS9azQUzFtIbsUT5xGjyg5R1RB0I/RfwFfK5bqho/4cpzxJ/UnQjSKA==}
     peerDependencies:
-      '@bull-board/ui': 7.2.1
+      '@bull-board/ui': 8.0.1
 
-  '@bull-board/fastify@7.2.1':
-    resolution: {integrity: sha512-OzJRqMArt9n1SoK+bi/+uOjqYpte5VUMh9+1R0MlTG+wRm7pe/Y5mqNsl5JfGFaElPLDsxyJCLQqDH/25eRlaQ==}
+  '@bull-board/fastify@8.0.1':
+    resolution: {integrity: sha512-zmFGKv7R/0x2CayBbG4lG1mjUk8zl/Q5bSvCrT8EyYoi2cExFZFC03OlOPHoMPV3F9DOdnXs1CDeSbsVEy6Lkg==}
 
-  '@bull-board/ui@7.2.1':
-    resolution: {integrity: sha512-O4ykrXrl2UJNHnhJrCvJxrw1ar+DlUBgyZUeZ8Ci+Ne5Wbq6rBv1gfpQH54/eu3IFbLso0S/kjc6WUGb2HPqZw==}
+  '@bull-board/ui@8.0.1':
+    resolution: {integrity: sha512-gKEGSD8dlUoWFGJJ4I4Q5bDtfB7yJwGfpgA2DVn1G1TzlUSN5n4fzzcGpLf5fS+QhR7tB/niydUiFRQ2zrjVrQ==}
 
   '@commitlint/cli@21.0.2':
     resolution: {integrity: sha512-YMmfLbqBg+ZRvvmPhc+cilSQFrh/AgzVgCT1U/OifmUZEwPbvCtA8rN//YNaF9d5eoZphxVMGYtmwA2QgQORgg==}
@@ -3312,22 +3312,22 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@bull-board/api@7.2.1(@bull-board/ui@7.2.1)':
+  '@bull-board/api@8.0.1(@bull-board/ui@8.0.1)':
     dependencies:
-      '@bull-board/ui': 7.2.1
+      '@bull-board/ui': 8.0.1
       redis-info: 3.1.0
 
-  '@bull-board/fastify@7.2.1':
+  '@bull-board/fastify@8.0.1':
     dependencies:
-      '@bull-board/api': 7.2.1(@bull-board/ui@7.2.1)
-      '@bull-board/ui': 7.2.1
+      '@bull-board/api': 8.0.1(@bull-board/ui@8.0.1)
+      '@bull-board/ui': 8.0.1
       '@fastify/static': 9.1.3
       '@fastify/view': 11.1.1
       ejs: 6.0.1
 
-  '@bull-board/ui@7.2.1':
+  '@bull-board/ui@8.0.1':
     dependencies:
-      '@bull-board/api': 7.2.1(@bull-board/ui@7.2.1)
+      '@bull-board/api': 8.0.1(@bull-board/ui@8.0.1)
 
   '@commitlint/cli@21.0.2(@types/node@25.9.3)(conventional-commits-parser@6.4.0)(typescript@6.0.3)':
     dependencies:
