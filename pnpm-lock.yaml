@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@bull-board/api':
-        specifier: 8.4.0
-        version: 8.4.0(@bull-board/ui@8.4.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))
+        specifier: 8.6.0
+        version: 8.6.0(@bull-board/ui@8.6.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))
       '@bull-board/fastify':
-        specifier: 8.4.0
-        version: 8.4.0(bullmq@5.81.3(supports-color@10.2.2))
+        specifier: 8.6.0
+        version: 8.6.0(bullmq@5.81.3(supports-color@10.2.2))
       '@t3-oss/env-core':
         specifier: 0.13.11
         version: 0.13.11(typescript@6.0.3)(valibot@1.4.2(typescript@6.0.3))(zod@4.4.3)
@@ -21,8 +21,8 @@ importers:
         specifier: 5.81.3
         version: 5.81.3(supports-color@10.2.2)
       fastify:
-        specifier: 5.11.0
-        version: 5.11.0
+        specifier: 5.11.2
+        version: 5.11.2
       pm2:
         specifier: 7.0.3
         version: 7.0.3(supports-color@10.2.2)
@@ -55,8 +55,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: 17.2.0
-        version: 17.2.0
+        specifier: 17.3.0
+        version: 17.3.0
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -133,23 +133,23 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@bull-board/api@8.4.0':
-    resolution: {integrity: sha512-RUAqQ4Y6G2k4eIzKJgYHs8qx2nCRiOfCNUEwfnz6SCrHwRZ5TKJ9ZlYBjIuGY9kA5s1et+jm0xwfiVJWNwflKA==}
+  '@bull-board/api@8.6.0':
+    resolution: {integrity: sha512-tJLkYszUJhvDzTexLT+6/OEUYCWrR5QBKXk+SNlNsxHw8WClSRFEirXMrKwrei3LlMVxPV5lvbBOC7LNNymibQ==}
     peerDependencies:
-      '@bull-board/ui': 8.4.0
+      '@bull-board/ui': 8.6.0
       bull: ^4.16.5
-      bullmq: ^5.79.2
+      bullmq: ^5.79.2 || ^6.0.0
     peerDependenciesMeta:
       bull:
         optional: true
       bullmq:
         optional: true
 
-  '@bull-board/fastify@8.4.0':
-    resolution: {integrity: sha512-1jKJU4zBRuh9M5vv52McKOIQajJEJT5MS0ppTrFfrZwFm2xPY1avAN8Jw3TBfbtWw0OKu9JK/qaevqYiu+IQFA==}
+  '@bull-board/fastify@8.6.0':
+    resolution: {integrity: sha512-Th5ExBU8pe0MfkhSRSDAZ3Y/eMxdSeFnAoUQ98qJNjYtykaEVkTL0VyTozKRAHb1Dggg3K31VS1j1a7JwlTNfA==}
 
-  '@bull-board/ui@8.4.0':
-    resolution: {integrity: sha512-N35K90lCAz2URwBtCXS1O/bOyU4/d7qeEZ7cx/qWWu0rn3NakwLC/oHNuU6L8R1qKBy2wVl8i5AxHdp2Mg3KNA==}
+  '@bull-board/ui@8.6.0':
+    resolution: {integrity: sha512-Qb/HYNU2JhRYKoyeJhXgeu1ZL4VK5RANmLC/cpzbtZPz5b9b260d0J0Af0L0zGdP6ORYg2XpPQKwrIy7n96AwQ==}
 
   '@commitlint/cli@21.2.1':
     resolution: {integrity: sha512-blsZGe29hJ72VGEFVl72IVYX+1vsfINpjA9yWQA6i7OKD/McGEOXg08sKIRKjFk4JvzhV/9n0l3i6NooPLTNfg==}
@@ -1776,8 +1776,8 @@ packages:
   fastify-plugin@6.0.0:
     resolution: {integrity: sha512-fZOty7z3O7vOliF6d8bHE3wiEh1KcNnKEQensSgTk9C1DvN6nRLS++XVd86v33Hw/8u9Un8A1zDrQ8ujcQDHEg==}
 
-  fastify@5.11.0:
-    resolution: {integrity: sha512-Y/Ecx1yt0hYzrQR+QVLbxaUN8wCX+MQzMevh29r5RRvlOIArmi4+WAXXaGl5Hw5gBr2wduZpZaT3gRCnXoyVgA==}
+  fastify@5.11.2:
+    resolution: {integrity: sha512-i/eJG7nXR9OkbFgoX4jFiPOHoRq0rXqDACVAXELh5Fdg6BFBErIVZ8MyibGCwup9Go1pYrxZJ0ogIub8vVdEcQ==}
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
@@ -2241,8 +2241,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  lint-staged@17.2.0:
-    resolution: {integrity: sha512-FchGnFe4i4B1C/a35SPU9bNGPEHSC1+1iV0plLjzBmKVe9klZrlRfSgK6Cw4VeHyqOXbJUXP0vON61uRftNQ0A==}
+  lint-staged@17.3.0:
+    resolution: {integrity: sha512-woZS3vNe3UKqBaLPvbLOtKRY4tLANpWQhom12MGWqC8Mh1lCOO+WgSwmX2amjJAqTY9BkXYW87fCUH5H9Ph6xw==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -3261,17 +3261,17 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@bull-board/api@8.4.0(@bull-board/ui@8.4.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))':
+  '@bull-board/api@8.6.0(@bull-board/ui@8.6.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))':
     dependencies:
-      '@bull-board/ui': 8.4.0(bullmq@5.81.3(supports-color@10.2.2))
+      '@bull-board/ui': 8.6.0(bullmq@5.81.3(supports-color@10.2.2))
       redis-info: 3.1.0
     optionalDependencies:
       bullmq: 5.81.3(supports-color@10.2.2)
 
-  '@bull-board/fastify@8.4.0(bullmq@5.81.3(supports-color@10.2.2))':
+  '@bull-board/fastify@8.6.0(bullmq@5.81.3(supports-color@10.2.2))':
     dependencies:
-      '@bull-board/api': 8.4.0(@bull-board/ui@8.4.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))
-      '@bull-board/ui': 8.4.0(bullmq@5.81.3(supports-color@10.2.2))
+      '@bull-board/api': 8.6.0(@bull-board/ui@8.6.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))
+      '@bull-board/ui': 8.6.0(bullmq@5.81.3(supports-color@10.2.2))
       '@fastify/static': 10.1.2
       '@fastify/view': 12.0.0
       ejs: 6.0.1
@@ -3279,9 +3279,9 @@ snapshots:
       - bull
       - bullmq
 
-  '@bull-board/ui@8.4.0(bullmq@5.81.3(supports-color@10.2.2))':
+  '@bull-board/ui@8.6.0(bullmq@5.81.3(supports-color@10.2.2))':
     dependencies:
-      '@bull-board/api': 8.4.0(@bull-board/ui@8.4.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))
+      '@bull-board/api': 8.6.0(@bull-board/ui@8.6.0(bullmq@5.81.3(supports-color@10.2.2)))(bullmq@5.81.3(supports-color@10.2.2))
     transitivePeerDependencies:
       - bull
       - bullmq
@@ -5165,7 +5165,7 @@ snapshots:
 
   fastify-plugin@6.0.0: {}
 
-  fastify@5.11.0:
+  fastify@5.11.2:
     dependencies:
       '@fastify/ajv-compiler': 4.0.5
       '@fastify/error': 4.2.0
@@ -5632,7 +5632,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  lint-staged@17.2.0:
+  lint-staged@17.3.0:
     dependencies:
       picomatch: 4.0.5
       string-argv: 0.3.2
