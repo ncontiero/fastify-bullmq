@@ -28,7 +28,7 @@
     "@bull-board/api": "9.10.1",
     "@bull-board/fastify": "9.10.1",
     "@t3-oss/env-core": "0.13.11",
-    "bullmq": "5.81.4",
+    "bullmq": "6.3.6",
     "fastify": "5.12.3",
     "pm2": "7.0.4",
     "zod": "4.6.1"
