@@ -1,3 +1,5 @@
+import { UnrecoverableError } from "bullmq";
+import { z } from "zod";
 import { SEND_EMAIL_QUEUE_NAME } from "@/queues/email-queue";
 import { type SendEmailSchema, sendEmailSchema } from "@/queues/schemas";
 import { createWorker } from "@/queues/utils";
@@ -5,7 +7,14 @@ import { createWorker } from "@/queues/utils";
 export const sendEmailWorker = createWorker<SendEmailSchema>(
   SEND_EMAIL_QUEUE_NAME,
   async (job) => {
-    const { email, subject, text } = sendEmailSchema.parse(job.data);
+    const result = sendEmailSchema.safeParse(job.data);
+    // An invalid payload will never succeed, so skip the remaining attempts.
+    if (!result.success) {
+      throw new UnrecoverableError(
+        `Invalid job data:\n${z.prettifyError(result.error)}`,
+      );
+    }
+    const { email, subject, text } = result.data;
 
     job.log(
       `Sending email to ${email} with subject ${subject} and text ${text}`,
