@@ -1,6 +1,7 @@
 minimumReleaseAge: 4320
+trustPolicy: no-downgrade
+shellEmulator: true
 
 allowBuilds:
-  core-js: true
   msgpackr-extract: true
   unrs-resolver: true
