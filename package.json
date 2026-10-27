@@ -47,7 +47,7 @@
     "typescript": "6.0.3"
   },
   "engines": {
-    "node": ">=22.3"
+    "node": ">=24"
   },
   "lint-staged": {
     "*": "pnpm lint:fix"
