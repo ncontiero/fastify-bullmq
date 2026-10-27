@@ -38,7 +38,7 @@
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
     "@ncontiero/eslint-config": "8.6.1",
-    "@rslib/core": "0.23.2",
+    "@rslib/core": "1.0.4",
     "@types/node": "25.9.9",
     "concurrently": "10.0.6",
     "eslint": "10.13.0",
