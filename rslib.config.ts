@@ -7,5 +7,4 @@ export default defineConfig({
       server: "./src/index.ts",
     },
   },
-  lib: [{ format: "esm", syntax: "es2022" }],
 });
