@@ -5,13 +5,18 @@ import Fastify from "fastify";
 import { env } from "./env";
 import { sendEmailQueue } from "./queues/email-queue";
 import { myQueue } from "./queues/my-queue";
+import { statsQueue } from "./queues/stats-queue";
 
 const fastify = Fastify({ logger: true });
 
 const serverAdapter = new FastifyAdapter();
 
 createBullBoard({
-  queues: [new BullMQAdapter(myQueue), new BullMQAdapter(sendEmailQueue)],
+  queues: [
+    new BullMQAdapter(myQueue),
+    new BullMQAdapter(sendEmailQueue),
+    new BullMQAdapter(statsQueue),
+  ],
   serverAdapter,
 });
 
