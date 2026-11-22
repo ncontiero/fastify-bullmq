@@ -176,17 +176,17 @@ importers:
   .:
     dependencies:
       '@bull-board/api':
-        specifier: 9.13.1
-        version: 9.13.1(@bull-board/ui@9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))
+        specifier: 9.13.2
+        version: 9.13.2(@bull-board/ui@9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))
       '@bull-board/fastify':
-        specifier: 9.13.1
-        version: 9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))
+        specifier: 9.13.2
+        version: 9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))
       '@t3-oss/env-core':
         specifier: 0.13.11
         version: 0.13.11(@typescript/typescript6@6.0.2)(valibot@1.5.0(@typescript/typescript6@6.0.2))(zod@4.6.7)
       bullmq:
-        specifier: 6.7.6
-        version: 6.7.6(ioredis@6.0.0(supports-color@10.2.2))
+        specifier: 6.7.8
+        version: 6.7.8(ioredis@6.0.0(supports-color@10.2.2))
       fastify:
         specifier: 5.12.8
         version: 5.12.8
@@ -228,8 +228,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: 17.6.0
-        version: 17.6.0
+        specifier: 17.6.1
+        version: 17.6.1
       typescript:
         specifier: npm:@typescript/typescript6@6.0.2
         version: '@typescript/typescript6@6.0.2'
@@ -306,10 +306,10 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@bull-board/api@9.13.1':
-    resolution: {integrity: sha512-27i+RakyykqJtZhPJk8er8z3hKn5pN32N+0lNLMDsBH0nRF9OhAWR9bjcVe7OrAq7UHmY1/3DaYtk60496CnDQ==}
+  '@bull-board/api@9.13.2':
+    resolution: {integrity: sha512-sirRus3gpnq3rpf3Be/7UHpI6FD/1X0928zWSLeaf0d8nB4cODzCcTz3lwbhEFwvXOvd1hO3wnicsVVnE5udKA==}
     peerDependencies:
-      '@bull-board/ui': 9.13.1
+      '@bull-board/ui': 9.13.2
       bull: ^4.16.5
       bullmq: ^5.56.0 || ^6.0.0
     peerDependenciesMeta:
@@ -318,11 +318,11 @@ packages:
       bullmq:
         optional: true
 
-  '@bull-board/fastify@9.13.1':
-    resolution: {integrity: sha512-YEFhLTT23jIkYdi7L0Gne1bXPuW0yHSOk0Hzs/ZHCdyTaC2sZyx6X7RMGBTLf4MljvTdTT/h8XY/DKMEVL4S+A==}
+  '@bull-board/fastify@9.13.2':
+    resolution: {integrity: sha512-vSzWiz7lNEnjPdkvsXu8vPmx6rqWBtr+6MRVfEgYeu+FzQBNgOAqe5LvZylsc7mzgk0Fz5VmiBn2OmREA5zRrg==}
 
-  '@bull-board/ui@9.13.1':
-    resolution: {integrity: sha512-J/ZC+0CtJr6HqMs2IptxjnSzmYmslHq2ZPTBp2pB8cpxxg6is9V4+/tRWti4kmk6dOYWlM6vSI0IsrrlQ8MO9Q==}
+  '@bull-board/ui@9.13.2':
+    resolution: {integrity: sha512-p6hFBN4K6Ja2IChe12hAqBscJq4/ax1F4/tA7fcQS3GaX5M2BzLWN3VoOs7Ucy7hleazYxxx+sGnVyf5ppthYw==}
 
   '@cacheable/memory@2.2.0':
     resolution: {integrity: sha512-CTLKqLItRCEixEAewD3/j9DB3/o96gpTPD4eJ1v+DGOlxZRZncRQkGYqqnAGCscYd6RNeXfGeiuCphsPtqyIfQ==}
@@ -1441,8 +1441,8 @@ packages:
     resolution: {integrity: sha512-2uhx+Lkzc2fnAcNEpzbJziSzwdv6cJjxxsi9oByBhSuy2wffAPzmazVDiWJk2xDKULFONl5gNOEOLOupQ8gsPg==}
     engines: {node: '>=18.20'}
 
-  bullmq@6.7.6:
-    resolution: {integrity: sha512-ykp2HGMkOz8BtuE/FBFRMetpI6RHDyFvAkUawqKJv7sDWIaZPz1cPtpzIad879iwW2oMJY4CFMPvfBKnWdB3Rw==}
+  bullmq@6.7.8:
+    resolution: {integrity: sha512-Mt0+nKGNFWAruuwwzEUVE+5yEgK5XgzjoR2BjSKp/JeqfgeYO0pFh6oy78Ls8u9upVTsaLhBzSaEZAhYvjPlJg==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
       bullmq-otel: '>=2.0.0'
@@ -1594,8 +1594,8 @@ packages:
       typescript:
         optional: true
 
-  cron-parser@5.10.4:
-    resolution: {integrity: sha512-TagNqYzoV/C7Ty7VAQjrQg+57WsEOuQEUh0tWT5Dc+l/GOuoAdWVIzFU0CqYdQswqdjUalrdmOvaMtQhErYZTA==}
+  cron-parser@5.10.6:
+    resolution: {integrity: sha512-kpoxgQyveO1l29nw+FWdvmotyV7eOSzGHQpxiXOEZIDOjqO1iR6kfgJ0PVHTuV26uBemKq3ppzma7dHFAG7viw==}
     engines: {node: '>=18'}
 
   croner@4.1.97:
@@ -2578,8 +2578,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  lint-staged@17.6.0:
-    resolution: {integrity: sha512-nOhBfYkZEwkFtNzD5pK9s9LkcWoxJ+whLzEnhqi9nl7zTB5n7tg8+9iYgMGx2Wm3VlLu8cbNj0RACzY+nWi5iQ==}
+  lint-staged@17.6.1:
+    resolution: {integrity: sha512-3MXgVN7BERDR/6CXZs2fDHGc+r0+hlvGAa9wqMlVbIS6RVRuaPOnb5SnN6wMXulwfEy9DXVkMVUN/8cUlpPDnw==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -3193,9 +3193,9 @@ packages:
     resolution: {integrity: sha512-eLoXW/DHyl62zxY4SCaIgnRhuMr6ri4juEYARS8E6sCEqzKpOiE521Ucofdx+KnDZl5xmvGYaaKCk5FEOxJCoQ==}
     engines: {node: '>= 0.4'}
 
-  string-argv@0.3.2:
-    resolution: {integrity: sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==}
-    engines: {node: '>=0.6.19'}
+  string-argv@0.4.0:
+    resolution: {integrity: sha512-UOtaksJ3SK3KLHba2i9I27fvuZNfBlImDP5wKsCOxCDMRDNxlipCe8rmnUAaDpqlQ93upnA0SzF2pjWhttozSA==}
+    engines: {node: '>=16.20.0'}
 
   string-ts@2.4.0:
     resolution: {integrity: sha512-JOrTlmqL2wGvXZI+4RLzSAAqvhQL3rXOmSCLoacd9MC5hIj20xoa7CfYBEApBDncf+hhvbGi6atCy7LyweWRKQ==}
@@ -3555,20 +3555,20 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@bull-board/api@9.13.1(@bull-board/ui@9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))':
+  '@bull-board/api@9.13.2(@bull-board/ui@9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))':
     dependencies:
-      '@bull-board/ui': 9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))
+      '@bull-board/ui': 9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))
       redis-info: 3.1.0
       valibot: 1.5.0(@typescript/typescript6@6.0.2)
     optionalDependencies:
-      bullmq: 6.7.6(ioredis@6.0.0(supports-color@10.2.2))
+      bullmq: 6.7.8(ioredis@6.0.0(supports-color@10.2.2))
     transitivePeerDependencies:
       - typescript
 
-  '@bull-board/fastify@9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))':
+  '@bull-board/fastify@9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))':
     dependencies:
-      '@bull-board/api': 9.13.1(@bull-board/ui@9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))
-      '@bull-board/ui': 9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))
+      '@bull-board/api': 9.13.2(@bull-board/ui@9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))
+      '@bull-board/ui': 9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))
       '@fastify/static': 10.1.10
       '@fastify/view': 12.0.1
       ejs: 6.0.1
@@ -3577,9 +3577,9 @@ snapshots:
       - bullmq
       - typescript
 
-  '@bull-board/ui@9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))':
+  '@bull-board/ui@9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))':
     dependencies:
-      '@bull-board/api': 9.13.1(@bull-board/ui@9.13.1(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)))
+      '@bull-board/api': 9.13.2(@bull-board/ui@9.13.2(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2))))(@typescript/typescript6@6.0.2)(bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)))
     transitivePeerDependencies:
       - bull
       - bullmq
@@ -4715,9 +4715,9 @@ snapshots:
 
   builtin-modules@5.5.0: {}
 
-  bullmq@6.7.6(ioredis@6.0.0(supports-color@10.2.2)):
+  bullmq@6.7.8(ioredis@6.0.0(supports-color@10.2.2)):
     dependencies:
-      cron-parser: 5.10.4
+      cron-parser: 5.10.6
       msgpackr: 2.1.4
       node-abort-controller: 3.1.1
       semver: 7.8.6
@@ -4849,7 +4849,7 @@ snapshots:
     optionalDependencies:
       typescript: '@typescript/typescript6@6.0.2'
 
-  cron-parser@5.10.4:
+  cron-parser@5.10.6:
     dependencies:
       luxon: 3.7.2
 
@@ -5992,10 +5992,10 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  lint-staged@17.6.0:
+  lint-staged@17.6.1:
     dependencies:
       picomatch: 4.0.7
-      string-argv: 0.3.2
+      string-argv: 0.4.0
       tinyexec: 1.3.1
     optionalDependencies:
       yaml: 2.9.1
@@ -6841,7 +6841,7 @@ snapshots:
       es-errors: 1.3.0
       internal-slot: 1.1.0
 
-  string-argv@0.3.2: {}
+  string-argv@0.4.0: {}
 
   string-ts@2.4.0: {}
 
